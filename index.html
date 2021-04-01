@@ -16,6 +16,7 @@
       crossorigin="anonymous"
     ></script>
 
+    
     <!--font awesome-->
     <link
       rel="stylesheet"
@@ -59,29 +60,43 @@
                 <a class="nav-link" href="">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Connection</a>
+                <a class="nav-link" href="#coverage">Coverage Area</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Payment</a>
+                <a class="nav-link" href="#pricing">Package</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Configuration</a>
+                <a class="nav-link" href="#AboutUs">About Us</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="login.html">Login</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Login
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="login.html">NTTN login</a></li>
+                  <li><a class="dropdown-item" href="login.html">ISP login</a></li>
+                  <li><a class="dropdown-item" href="login.html">User login</a></li>
+                </ul>
               </li>
             </ul>
           </div>
         </nav>
 
         <!-- Title -->
-        
       </div>
     </section>
 
+
     <!-- Features -->
 
-    <section id="testimonials">
+    <section id="homeCarousal">
       <div
         id="carouselExampleIndicators"
         class="carousel slide"
@@ -150,48 +165,33 @@
       </div>
     </section>
 
-    <section id="features">
-      <div class="row">
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-check-circle fa-4x"></i>
-          <h3>Easy to use.</h3>
-          <p>So easy to use, even your dog could do it.</p>
+
+    <section id="coverage">
+
+      <div class="container">
+        <div class="row covergae-irems">
+          <div class="col-lg-4">
+          </div>
+          <div class="col-lg-4">
+            <h3 class="mt-5">Coverage Area</h3>
+          </div>
+          <div class="col-lg-4">
+            <i class="fas fa-map-marked-alt fa-9x"></i>
+          </div>
         </div>
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-bullseye fa-4x"></i>
-          <h3>Elite Clientele</h3>
-          <p>We have all the dogs, the greatest dogs.</p>
-        </div>
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-heart fa-4x"></i>
-          <h3>Guaranteed to work.</h3>
-          <p>Find the love of your dog's life or your money back.</p>
-        </div>
+      </div>
+
+      <div>
+        <img class="map-image" src="images/map.png" alt="map-image" />
       </div>
     </section>
 
-    <!-- Testimonials -->
 
-    
 
-    <!-- Press -->
-
-    <section id="press">
-      <img class="press-logo" src="images/techcrunch.png" alt="tc-logo" />
-      <img class="press-logo" src="images/tnw.png" alt="tnw-logo" />
-      <img
-        class="press-logo"
-        src="images/bizinsider.png"
-        alt="biz-insider-logo"
-      />
-      <img class="press-logo" src="images/mashable.png" alt="mashable-logo" />
-    </section>
-
-    <!-- Pricing -->
 
     <section id="pricing">
-      <h2>A Plan for Every Dog's Needs</h2>
-      <p>Simple and affordable price plans for your and your dog.</p>
+      <h2>A Plan for your Needs</h2>
+      <p>Simple and affordable price plans for your only.</p>
 
       <div class="row pricing-cards">
         <div class="col-lg-4 col-md-6">
@@ -204,7 +204,9 @@
               <p>5 Matches Per Day</p>
               <p>10 Messages Per Day</p>
               <p>Unlimited App Usage</p>
-              <button type="button" class="w-100 btn btn-lg btn-outline-dark">Sign Up</button>
+              <button type="button" class="w-100 btn btn-lg btn-outline-dark">
+                Sign Up
+              </button>
             </div>
           </div>
         </div>
@@ -219,12 +221,14 @@
               <p>Unlimited Matches</p>
               <p>Unlimited Messages</p>
               <p>Unlimited App Usage</p>
-              <button type="button" class="w-100 btn btn-lg btn-dark">Sign Up</button>
+              <button type="button" class="w-100 btn btn-lg btn-outline-dark">
+                Sign Up
+              </button>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-6">
           <div class="card">
             <div class="card-header">
               <h3>Mastiff</h3>
@@ -234,27 +238,93 @@
               <p>Pirority Listing</p>
               <p>Unlimited Matches</p>
               <p>Unlimited Messages</p>
-              <p>Unlimited App Usage</p>
-              <button type="button" class="w-100 btn btn-lg btn-dark">Sign Up</button>
+              <button type="button" class="w-100 btn btn-lg btn-outline-dark">
+                Sign Up
+              </button>
             </div>
           </div>
+        </div>
+
+        <div class="row pricing-cards">
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3>Chihuahua</h3>
+              </div>
+              <div class="card-body">
+                <h2>Free</h2>
+                <p>5 Matches Per Day</p>
+                <p>10 Messages Per Day</p>
+                <p>Unlimited App Usage</p>
+                <button type="button" class="w-100 btn btn-lg btn-outline-dark">
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3>Labrador</h3>
+              </div>
+              <div class="card-body">
+                <h2>$49 / mo</h2>
+                <p>Unlimited Matches</p>
+                <p>Unlimited Messages</p>
+                <p>Unlimited App Usage</p>
+                <button type="button" class="w-100 btn btn-lg btn-outline-dark">
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3>Mastiff</h3>
+              </div>
+              <div class="card-body">
+                <h2>$99 / mo</h2>
+                <p>Pirority Listing</p>
+                <p>Unlimited Matches</p>
+                <p>Unlimited Messages</p>
+                <button type="button" class="w-100 btn btn-lg btn-outline-dark">
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+
+
+    <section id="AboutUs">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3>Reliable</h3>
+          <p>We guarantee your internet 24/7.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3>Elite Clientele</h3>
+          <p>We have all the packages you will ever need.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3>High Bandwidth</h3>
+          <p>Emerge yourself to an extense experience through our fast internet service.</p>
         </div>
       </div>
     </section>
 
-    <!-- Call to Action -->
+    
 
     <section id="cta">
       <h3>Find the True Love of Your Dog's Life Today.</h3>
-      <button type="button" class="btn btn-dark btn-lg download-btn">
-        <i class="fab fa-apple"></i> Downlaod
-      </button>
-      <button
-        type="button"
-        class="btn btn-light btn-lg download-btn"
-      >
-        <i class="fab fa-google-play"></i> Download
-      </button>
     </section>
 
     <!-- Footer -->
@@ -265,12 +335,5 @@
       <i class="fab fa-instagram footer-icon"></i>
       <p>© Copyright ruhan,abid & shaon</p>
     </footer>
-
-
-
   </body>
 </html>
-
-
-
-
