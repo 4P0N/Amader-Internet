@@ -33,13 +33,13 @@ p{
 
 #title{
     text-align: left;
-    background-color: #ff4c68;
+    background-color: #435560;
     color: #FFF;
 }
 
 
 .navbar{
-    padding-bottom: 4.5rem;
+    padding-bottom: 0rem;
 }
 
 .nav-item{
@@ -51,7 +51,7 @@ p{
 }
 
 .container-fluid{
-    padding: 3% 15% 7%;
+    padding: 0% 15% 0%;
 }
 
 .navbar-brand{
@@ -93,7 +93,7 @@ p{
 
 
 #testimonials{
-    background-color: #ef8172;
+    background-color: #435560;
     color: #fff;
 }
 
@@ -149,4 +149,8 @@ p{
         position: static;
         transform: rotate(0);
     }
+}
+
+.ispname{
+    font-size: 500%;
 }
