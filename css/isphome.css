@@ -165,3 +165,17 @@ p{
 .view-details{
     text-align: right;
 }
+
+
+#CurrentlyPackage{
+    padding: 100px;
+    background-color: #fff;
+}
+#UserPackage{
+    padding: 100px;
+    background-color: #fff;
+}
+#NTTNPackage{
+    padding: 100px;
+    background-color: #fff;
+}
