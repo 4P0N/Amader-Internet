@@ -6,7 +6,7 @@ body{
 }
 
 .navbar {
-  background-color: #fff
+  background-color: #021a34;
   height: 70px;
 }
 
@@ -34,7 +34,7 @@ body{
 }
 
 #map {
-  height: 75rem;
+  height: 40rem;
   /* The height is 400 pixels */
   width: 100%;
   /* The width is the width of the web page */
@@ -84,10 +84,6 @@ body{
   color: dimgrey;
 }
 
-.card {
-  height: 300px;
-  width: 300px;
-}
 
 .miniImage {
   border-radius: 50%;
@@ -151,6 +147,8 @@ body{
 
 #footer {
   background-color: #021a34;
+  color: white;
+  padding: 5%;
 }
 
 /*  View Details */
@@ -191,6 +189,8 @@ body{
 
 /* amader code */
 
+
+/* index.html */
 .fa-cog {
   color: white;
 }
@@ -198,3 +198,23 @@ body{
 .icon-cog {
   color: white;
 }
+
+.covergae-items{
+  padding: 5%;
+  color: #021a34;
+}
+
+#pricing{
+  padding: 10%;
+}
+
+.pricing-cards{
+  padding: 5% 10%;
+}
+
+/* info.html */
+#aboutus{
+  padding: 5%;
+}
+
+
