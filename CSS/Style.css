@@ -215,6 +215,39 @@ body{
 /* info.html */
 #aboutus{
   padding: 5%;
+  font-family: Montserrat;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+
+.image1{
+  height: 70%;
+  width: 70%;
+  padding: 1% 2% 2%;
+}
+.para1{
+  padding: 2% 0%;
+  text-align: left;
+  color: #9e9d89;
+  
+}
+.para0{
+  text-align: left;
+  padding: 7% 10% 2%;
+  color: #9e9d89;
+}
+
+/* contactus.html */
+#contact{
+  padding-top: 10%;
+}
+
+#contact label{
+  padding-top: 2%;
+  font-size: 115%;
+}
+#contact form{
+  padding-bottom: 10%;
 }
 
 
