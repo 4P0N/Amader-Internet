@@ -6,7 +6,7 @@ body{
 }
 
 .navbar {
-  background-color: #021a34;
+  background-color: #fff
   height: 70px;
 }
 
@@ -186,4 +186,15 @@ body{
   margin: 0 auto;
   margin-bottom: 20px;
   height: 200px;
+}
+
+
+/* amader code */
+
+.fa-cog {
+  color: white;
+}
+
+.icon-cog {
+  color: white;
 }
