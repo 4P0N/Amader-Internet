@@ -259,70 +259,50 @@ body{
 
 /* packages */
 
-.pricing-list {
-  text-align: center;
-  border-radius: 10px;
-  background: #fff;
-  border: 2px solid #ececec;
-  padding: 30px 40px;
-  margin: 20px 0px;
-  -webkit-box-shadow: 0px 10px 30px 0px rgb(50 50 50 / 16%);
-  -moz-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
-  box-shadow: 0px 10px 30px 0px rgb(50 50 50 / 16%);
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
+.pricing-cards{
+  margin-bottom: 7%;
 }
 
 
-ul {
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-}
-.pricing-list {
-  text-align: center;
-  border-radius: 10px;
-  background: #fff;
-  border: 2px solid #ececec;
-  padding: 30px 40px;
-  margin: 20px 0px;
-  -webkit-box-shadow: 0px 10px 30px 0px rgb(50 50 50 / 16%);
-  -moz-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
-  box-shadow: 0px 10px 30px 0px rgb(50 50 50 / 16%);
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-}
-h4 {
-  display: block;
-  margin-block-start: 1.33em;
-  margin-block-end: 1.33em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-}
-sup {
-  vertical-align: super;
-  font-size: smaller;
-}
-.pricing-list h2 {
-  font-size: 44px;
-}
-li {
-  display: list-item;
-  text-align: -webkit-match-parent;
+/* userpackage;ist.html */
+#userpackageList{
+  padding: 10% 18% 5%;
 }
 
-.pricing-list-button {
-  background: #d21e2b;
-  margin: 20px 15px 0px 15px;
-  border: 2px solid #d21e2b;
-  border-radius: 5px;
-  -webkit-transition-duration: .3s;
-  transition-duration: .3s;
+#userpackageList h1{
+  padding-bottom: 5%;
+  color: #021a34;
 }
 
+#userpackageList .buttonlower{
+  text-align: right;
+  padding: 2% 1% 2%;
+}
 
+/* modifyUserPackage.html */
+.form-control:focus {
+  border-color: #66afe9;
+  outline: none!important;
+}
+
+#modigyuserpackageList{
+  padding: 10% 18% 5%;
+}
+
+#modigyuserpackageList select{
+  display: inline;
+}
+#modigyuserpackageList h5{
+  display: inline;
+}
+#modigyuserpackageList h1{
+  padding-bottom: 5%;
+  color: #021a34;
+}
+#modigyuserpackageList h3{
+  display: inline;
+}
+#modigyuserpackageList p{
+  display: inline;
+  line-height: 1.5rem;
+}
