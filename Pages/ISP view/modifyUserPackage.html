@@ -56,11 +56,11 @@
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                             aria-expanded="false"><i class="far fa-user"></i></a>
                         <ul class="dropdown-menu">
-                            <li class=" dropalign ">
+                            <li class="dropalign">
                                 <a class="dropdown-item" href="pendingRequests.html" class="nav-link text-white">
                                     <i class="fas fa-user"></i></a>
                             </li>
-                            <li class=" dropalign ">
+                            <li class="dropalign">
                                 <a class="dropdown-item" href="renewalRequests.html" class="nav-link text-white">Log
                                     Out&nbsp;&nbsp;&nbsp;<i class="fas fa-sign-out-alt"></i></a>
                             </li>
@@ -76,12 +76,10 @@
                             <i class="fas fa-info"></i>
                         </a>
                     </li>
-
                 </ul>
             </div>
         </div>
     </nav>
-
 
     <section id="modigyuserpackageList">
         <h1>Selling User Packages</h1>
@@ -92,170 +90,558 @@
                         <h3>Durbar</h3>
                     </div>
                     <div class="card-body">
-                        <select class="form-control form-control-md" style="width: auto;border: none;margin: auto;">
-                            <option selected disabled>1000</option>
-                            <option>1500</option>
-                            <option>1200</option>
-                            <option>2000</option>
-                            <option>800</option>
-                            <option>500</option>
-                            
-                        </select>
-                        <h3>TK/Month</h3><br>
-                        <select class="form-control form-control-md" style="width: auto;border: none;margin: auto;">
-                            <option selected disabled>5</option>
-                            <option>15</option>
-                            <option>10</option>
-                            <option>8</option>
-                            <option>3</option>
-                            <option>2</option>
-                            <option>1</option>
-                        </select>
-                        <h5>MBPS</h5><br>
-
-                        <p>Duration:</p>
-                        <select class="form-control form-control-md" style="width: auto;border: none;margin: auto;">
-                            <option selected disabled>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                        </select>
-                        <p>month</p><br>
-                        <p>UP speed:</p>
-                        <form action="">
-                            <fieldset>
-                                <select class="form-control form-control-md" style="width: auto;border: none;margin: auto;">
-                                    <option selected disabled>5</option>
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>7</option>
-                                    <option>10</option>
-                                </select>
-                            </fieldset>
-                            
-                        </form>
+                        <div class="cardDiv">
+                            <select class="form-check form-control-lg" style="width: auto; margin: auto">
+                                <option selected disabled>1000</option>
+                                <option> 500</option>
+                                <option> 800</option>
+                                <option>1000</option>
+                                <option>1200</option>
+                                <option>1500</option>
+                                <option>1800</option>
+                                <option>2000</option>
+                            </select>
+                            <h3>TK/Month</h3>
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>5</option>
+                                <option>1</option>
+                                <option>3</option>
+                                <option>5</option>
+                                <option>10</option>
+                                <option>15</option>
+                                <option>20</option>
+                            </select>
+                            <h5>MBPS</h5>
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            Duration:
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                            month
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            UP speed:
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>5</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>5</option>
+                                <option>7</option>
+                                <option>10</option>
+                            </select>
+                            MB
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            downspeed
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>5</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>5</option>
+                                <option>7</option>
+                                <option>10</option>
+                            </select>
+                            MB
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            24/7 Customer Care
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>No real IP</option>
+                                <option>No Real IP</option>
+                                <option>1 Real IP</option>
+                                <option>2 Real IP</option>
+                            </select>
+                        </div>
+                        <hr>
+                        <div class="d-grid">
+                            <a role="button" href="modifiedUserPackages.html" class="btn btn-outline-primary mt-2">Save Change</a>
+                        </div>
                         
-                        <p>MB</p><br>
-                        <p>downspeed</p>
-                        <select class="form-control form-control-md" style="width: auto;border: none;margin: auto;">
-                            <option selected disabled>5</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>7</option>
-                            <option>10</option>
-                        </select>
-                        <p>MB</p><br>
-                        <p>24/7 Customer Care</p><br>
-                        <p>1235 Subscribers</p><br>
-
-                        <a role="button" href="modifyUserPackage.html" class="btn btn-outline-danger mt-4">Modify</a>
                     </div>
                 </div>
             </div>
 
-
-
             <div class="col-lg-4 col-md-6 mt-5">
-                <div class="card ">
+                <div class="card">
                     <div class="card-header">
                         <h3>Obichol</h3>
                     </div>
                     <div class="card-body">
-                        <h3> 110000TK/YR</h3>
-                        <h5>2.5 GBPS</h5>
-                        <p>Duration: 1 year</p>
-                        <p>UP speed: 2.5Gb</p>
-                        <p>downspeed:2.3Gb</p>
-                        <p>24/7 Customer Care</p>
-                        <p>subscribers</p>
-
-                        <a role="button" href="modifyUserPackage.html" class="btn btn-outline-danger">Modify</a>
+                        <div class="cardDiv">
+                            <select class="form-check form-control-lg" style="width: auto; margin: auto">
+                                <option selected disabled>800</option>
+                                <option> 500</option>
+                                <option> 800</option>
+                                <option>1000</option>
+                                <option>1200</option>
+                                <option>1500</option>
+                                <option>1800</option>
+                                <option>2000</option>
+                            </select>
+                            <h3>TK/Month</h3>
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>3</option>
+                                <option>1</option>
+                                <option>3</option>
+                                <option>5</option>
+                                <option>10</option>
+                                <option>15</option>
+                                <option>20</option>
+                            </select>
+                            <h5>MBPS</h5>
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            Duration:
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                            month
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            UP speed:
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>3</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>5</option>
+                                <option>7</option>
+                                <option>10</option>
+                            </select>
+                            MB
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            downspeed
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>3</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>5</option>
+                                <option>7</option>
+                                <option>10</option>
+                            </select>
+                            MB
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            24/7 Customer Care
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>No real IP</option>
+                                <option>No Real IP</option>
+                                <option>1 Real IP</option>
+                                <option>2 Real IP</option>
+                            </select>
+                        </div>
+                        <hr>
+                        <div class="d-grid">
+                            <a role="button" href="modifyUserPackage.html" class="btn btn-outline-primary mt-2">Save Change</a>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-4 col-md-6 mt-5">
-                <div class="card ">
+                <div class="card">
                     <div class="card-header">
                         <h3>Nirontor</h3>
                     </div>
                     <div class="card-body">
-                        <h3>100000TK/YR</h3>
-                        <h5>2GBPS</h5>
-                        <p>Duration:1year</p>
-                        <p>UP speed :2.0Gb</p>
-                        <p>downspeed:1.8Gb</p>
-                        <p>24/7 Customer Care</p>
-                        <p>subscribers</p>
-
-                        <a role="button" href="modifyUserPackage.html" class="btn btn-outline-danger">Modify</a>
+                        <div class="cardDiv">
+                            <select class="form-check form-control-lg" style="width: auto; margin: auto">
+                                <option selected disabled>500</option>
+                                <option> 500</option>
+                                <option> 800</option>
+                                <option>1000</option>
+                                <option>1200</option>
+                                <option>1500</option>
+                                <option>1800</option>
+                                <option>2000</option>
+                            </select>
+                            <h3>TK/Month</h3>
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>1</option>
+                                <option>1</option>
+                                <option>3</option>
+                                <option>5</option>
+                                <option>10</option>
+                                <option>15</option>
+                                <option>20</option>
+                            </select>
+                            <h5>MBPS</h5>
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            Duration:
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                            month
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            UP speed:
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>1</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>5</option>
+                                <option>7</option>
+                                <option>10</option>
+                            </select>
+                            MB
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            downspeed
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>1</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>5</option>
+                                <option>7</option>
+                                <option>10</option>
+                            </select>
+                            MB
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            24/7 Customer Care
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>No real IP</option>
+                                <option>No Real IP</option>
+                                <option>1 Real IP</option>
+                                <option>2 Real IP</option>
+                            </select>
+                        </div>
+                        <hr>
+                        <div class="d-grid">
+                            <a role="button" href="modifyUserPackage.html" class="btn btn-outline-primary mt-2">Save Change</a>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 mt-5">
-                <div class="card ">
+                <div class="card">
                     <div class="card-header">
                         <h3>Sahoshi</h3>
                     </div>
                     <div class="card-body">
-                        <h3> 90000TK/6MNTS</h3>
-                        <h5> 3GBPS </h5>
-                        <p>Duration: 6 Months</p>
-                        <p>UP speed: 3.0GB</p>
-                        <p>downspeed:2.8GB</p>
-                        <p>24/7 Customer Care</p>
-                        <p>subscribers</p>
-
-                        <a role="button" href="modifyUserPackage.html" class="btn btn-outline-danger">Modify</a>
+                        <div class="cardDiv">
+                            <select class="form-check form-control-lg" style="width: auto; margin: auto">
+                                <option selected disabled>1500</option>
+                                <option> 500</option>
+                                <option> 800</option>
+                                <option>1000</option>
+                                <option>1200</option>
+                                <option>1500</option>
+                                <option>1800</option>
+                                <option>2000</option>
+                            </select>
+                            <h3>TK/Month</h3>
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>10</option>
+                                <option>1</option>
+                                <option>3</option>
+                                <option>5</option>
+                                <option>10</option>
+                                <option>15</option>
+                                <option>20</option>
+                            </select>
+                            <h5>MBPS</h5>
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            Duration:
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                            month
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            UP speed:
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>10</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>5</option>
+                                <option>7</option>
+                                <option>10</option>
+                            </select>
+                            MB
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            downspeed
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>10</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>5</option>
+                                <option>7</option>
+                                <option>10</option>
+                            </select>
+                            MB
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            24/7 Customer Care
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>No real IP</option>
+                                <option>No Real IP</option>
+                                <option>1 Real IP</option>
+                                <option>2 Real IP</option>
+                            </select>
+                        </div>
+                        <hr>
+                        <div class="d-grid">
+                            <a role="button" href="modifyUserPackage.html" class="btn btn-outline-primary mt-2">Save Change</a>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-4 col-md-6 mt-5">
-                <div class="card ">
+                <div class="card">
                     <div class="card-header">
-                        <h3>Hasikukh</h3>
+                        <h3>Hasimukh</h3>
                     </div>
                     <div class="card-body">
-                        <h3> 80000TK/6MNTS</h3>
-                        <h5>2.5 GBPS</h5>
-                        <p>Duration: 6 Months</p>
-                        <p>UP speed: 2.5Gb</p>
-                        <p>downspeed:2.3Gb</p>
-                        <p>24/7 Customer Care</p>
-                        <p>subscribers</p>
-
-                        <a role="button" href="modifyUserPackage.html" class="btn btn-outline-danger">Modify</a>
+                        <div class="cardDiv">
+                            <select class="form-check form-control-lg" style="width: auto; margin: auto">
+                                <option selected disabled>1800</option>
+                                <option> 500</option>
+                                <option> 800</option>
+                                <option>1000</option>
+                                <option>1200</option>
+                                <option>1500</option>
+                                <option>1800</option>
+                                <option>2000</option>
+                            </select>
+                            <h3>TK/Month</h3>
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>15</option>
+                                <option>1</option>
+                                <option>3</option>
+                                <option>5</option>
+                                <option>10</option>
+                                <option>15</option>
+                                <option>20</option>
+                            </select>
+                            <h5>MBPS</h5>
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            Duration:
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                            month
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            UP speed:
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>15</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>5</option>
+                                <option>7</option>
+                                <option>10</option>
+                            </select>
+                            MB
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            downspeed
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>15</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>5</option>
+                                <option>7</option>
+                                <option>10</option>
+                            </select>
+                            MB
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            24/7 Customer Care
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>1 real IP</option>
+                                <option>No Real IP</option>
+                                <option>1 Real IP</option>
+                                <option>2 Real IP</option>
+                            </select>
+                        </div>
+                        <hr>
+                        <div class="d-grid">
+                            <a role="button" href="modifyUserPackage.html" class="btn btn-outline-primary mt-2">Save Change</a>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-4 col-md-6 mt-5">
-                <div class="card ">
+                <div class="card">
                     <div class="card-header">
                         <h3>Somvar</h3>
                     </div>
                     <div class="card-body">
-                        <h3>70000TK/6MNTS</h3>
-                        <h5>2GBPS</h5>
-                        <p>Duration:6 Months</p>
-                        <p>UP speed :2.0Gb</p>
-                        <p>downspeed:1.8Gb</p>
-                        <p>24/7 Customer Care</p>
-                        <p>subscribers</p>
-
-
-                        <a role="button" href="modifyUserPackage.html" class="btn btn-outline-danger">Modify</a>
+                        <div class="cardDiv">
+                            <select class="form-check form-control-lg" style="width: auto; margin: auto">
+                                <option selected disabled>2000</option>
+                                <option> 500</option>
+                                <option> 800</option>
+                                <option>1000</option>
+                                <option>1200</option>
+                                <option>1500</option>
+                                <option>1800</option>
+                                <option>2000</option>
+                            </select>
+                            <h3>TK/Month</h3>
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>20</option>
+                                <option>1</option>
+                                <option>3</option>
+                                <option>5</option>
+                                <option>10</option>
+                                <option>15</option>
+                                <option>20</option>
+                            </select>
+                            <h5>MBPS</h5>
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            Duration:
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                            month
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            UP speed:
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>20</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>5</option>
+                                <option>7</option>
+                                <option>10</option>
+                            </select>
+                            MB
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            downspeed
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>20</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>5</option>
+                                <option>7</option>
+                                <option>10</option>
+                            </select>
+                            MB
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            24/7 Customer Care
+                        </div>
+                        <hr>
+                        <div class="cardDiv">
+                            <select class="form-check form-control-md" style="width: auto; margin: auto">
+                                <option selected disabled>1 real IP</option>
+                                <option>No Real IP</option>
+                                <option>1 Real IP</option>
+                                <option>2 Real IP</option>
+                            </select>
+                        </div>
+                        <hr>
+                        <div class="d-grid">
+                            <a role="button" href="modifyUserPackage.html" class="btn btn-outline-primary mt-2">Save Change</a>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
+
             <div class="buttonlower">
-                <a role="button" href="modifyUserPackage.html" class="btn btn-outline-danger">Cancel</a>
-                <a role="button" href="modifyUserPackage.html" class="btn btn-primary">Save Changes</a>
+                <a role="button" href="userPackageList.html" class="btn btn-outline-danger">Cancel</a>
+                <a role="button" href="modifiedUserPackages.html" class="btn btn-primary">Save Changes</a>
             </div>
         </div>
     </section>
-
-
 
     <div id="footer">
         <footer class="footer">

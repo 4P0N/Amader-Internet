@@ -274,7 +274,7 @@ body{
   color: #021a34;
 }
 
-#userpackageList .buttonlower{
+.buttonlower{
   text-align: right;
   padding: 2% 1% 2%;
 }
@@ -302,7 +302,10 @@ body{
 #modigyuserpackageList h3{
   display: inline;
 }
-#modigyuserpackageList p{
-  display: inline;
-  line-height: 1.5rem;
+#modigyuserpackageList hr{
+  margin: 10px 0px;
+}
+
+#userpackageList .deletebutton:hover{
+  color: red;
 }
