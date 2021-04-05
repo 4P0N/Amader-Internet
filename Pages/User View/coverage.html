@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Easy Internet Service</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous" />
+
+    <link rel="stylesheet" type="text/css" href="./../../CSS/Style.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container">
+            <h1 class="navbar-brand text-warning font-weight-bold">
+                Amader Internet
+            </h1>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+
+            <div class="collapse navbar-collapse text-center" id="collapsenavbar">
+                <ul class="navbar-nav nav-pills ms-auto">
+
+                    <li class="nav-item" style="padding-right: 20px">
+                        <a href="index.html" class="nav-link text-white">
+                            <i class="fas fa-home"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="padding-right: 20px">
+                        <a href="coverage.html" class="active nav-link text-white">
+                            <i class="fas fa-map-marked-alt fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="padding-right: 20px">
+                        <a href="pkgForISP.html" class="nav-link text-white">
+                            <i class="fas fa-gift"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="padding-right: 20px">
+                        <a href="payment.html" class="nav-link text-white">
+                            <i class="fas fa-money-check-alt"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="padding-right: 20px">
+                        <a href="user.html" class="nav-link text-white">
+                            <i class="fas fa-user"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="padding-right: 20px">
+                        <a href="./notification.html" class="nav-link text-white" style="text-decoration: none;">
+                            <i class="fas fa-bell"></i>
+                            <sup>
+                                <span class="badge rounded-pill bg-info">2</span>
+                            </sup>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="padding-right: 20px">
+                        <a href="info.html" class="nav-link text-white">
+                            <i class="fas fa-info"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Other Group</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="pendingRequests.html" class="nav-link text-white">Pending
+                                    Requests</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="renewalRequests.html" class="nav-link text-white">Renewal
+                                    Requests</a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="cancelRequests.html"
+                                    class="nav-link text-white">Cancellation Requests</a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="isps.html" class="nav-link text-white">Active ISPs</a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="reports.html" class="nav-link text-white">Reports</a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="feedback.html" class="nav-link text-white">Feedbacks</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section style="padding-top: 10px;">
+        <div class="row covergae-items">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <h2 class="mt-5">Coverage Area</h2>
+            </div>
+            <div class="col-lg-4">
+                <i class="fas fa-map-marked-alt fa-7x"></i>
+            </div>
+        </div>
+
+        <form>
+            <fieldset>
+                <div class="row settings">
+                    <div class="col-lg-2 col-md-2 col-10 d-block m-auto">
+                        <select class="form-check form-control-lg">
+                            <option selected disabled>Division</option>
+                            <option>Dhaka</option>
+                            <option>Chittagong</option>
+                            <option>Khulna</option>
+                            <option>Sylhet</option>
+                            <option>Mymensingh</option>
+                            <option>Rajshahi</option>
+                            <option>Rangpur</option>
+                            <option>Barishal</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-10 d-block m-auto">
+                        <select class="form-check form-control-lg">
+                            <option selected disabled>District</option>
+                            <option>Narshingdi</option>
+                            <option>Gajipur</option>
+                            <option>Narayanganj</option>
+                            <option>Tangail</option>
+                            <option>Shariyatpur</option>
+                            <option>Kishoreganj</option>
+                            <option>Manikganj</option>
+                            <option>Munshiganj</option>
+                            <option>Madaripur</option>
+                            <option>Gopalganj</option>
+                            <option>Faridpur</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-10 d-block m-auto">
+                        <select class="form-check form-control-lg">
+                            <option selected disabled>Upazilla</option>
+                            <option>Basail</option>
+                            <option>Madhupur</option>
+                            <option>Mirzapur</option>
+                            <option>Ghatail</option>
+                            <option>Nagorpur</option>
+                            <option>Kalihati</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-10 d-block m-auto">
+                        <select class="form-check form-control-lg">
+                            <option selected disabled>Union</option>
+                            <option>Alokdia</option>
+                            <option>Aushnara</option>
+                            <option>Aronkhola</option>
+                            <option>Sholakuri</option>
+                            <option>Golabari</option>
+                            <option>Mirzabari</option>
+                        </select>
+                    </div>
+
+                    <!-- <div class="col-lg-2 col-md-2 col-10 d-block m-auto">
+                        <select class="form-control form-control-lg">
+                            <option selected disabled>Sort By</option>
+                            <option>Package Priority</option>
+                            <option>Arrival Time</option>
+                        </select>
+                    </div> -->
+
+                    <div class="col-lg-2 col-md-2 col-10 d-block m-auto">
+                        <button type="button" class="btn btn-outline-dark">Search</button>
+                    </div>
+
+                </div>
+            </fieldset>
+        </form>
+
+        <div id="map"></div>
+    </section>
+
+    <!-- <section id="pricing">
+        <h2>Simple and affordable price plans for your only.</h2>
+        <p>
+            Super Speed Optical Fiber Inernet Connectivity with Real IP Right to
+            Your Door Steps
+        </p>
+
+        <div class="row pricing-cards">
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Title</h3>
+                    </div>
+                    <div class="card-body">
+                        <h3>Price</h3>
+                        <h5>Bandwidth</h5>
+                        <p>Duration</p>
+                        <p>UP speed</p>
+                        <p>downspeed</p>
+                        <p>24/7 Customer Care</p>
+                        <p>subscribers</p>
+                        <p>eta asol, eta dekhe copy kor, ei paragraph muche dis</p>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-dark">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Labrador</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2>$49 / mo</h2>
+                        <p>Unlimited Matches</p>
+                        <p>Unlimited Messages</p>
+                        <p>Unlimited App Usage</p>
+                        <p>Pirority Listing</p>
+                        <p>Unlimited Matches</p>
+                        <p>Unlimited Messages</p>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-dark">
+                            Sign Up
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Mastiff</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2>$99 / mo</h2>
+                        <p>Pirority Listing</p>
+                        <p>Unlimited Matches</p>
+                        <p>Unlimited Messages</p>
+                        <p>Pirority Listing</p>
+                        <p>Unlimited Matches</p>
+                        <p>Unlimited Messages</p>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-dark">
+                            Sign Up
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pricing-cards">
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Chihua</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2>Free</h2>
+                        <p>5 Matches Per Day</p>
+                        <p>10 Messages Per Day</p>
+                        <p>Unlimited App Usage</p>
+                        <p>Pirority Listing</p>
+                        <p>Unlimited Matches</p>
+                        <p>Unlimited Messages</p>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-dark">
+                            Sign Up
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Labrador</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2>$49 / mo</h2>
+                        <p>Unlimited Matches</p>
+                        <p>Unlimited Messages</p>
+                        <p>Unlimited App Usage</p>
+                        <p>Pirority Listing</p>
+                        <p>Unlimited Matches</p>
+                        <p>Unlimited Messages</p>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-dark">
+                            Sign Up
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Mastiff</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2>$99 / mo</h2>
+                        <p>Pirority Listing</p>
+                        <p>Unlimited Matches</p>
+                        <p>Unlimited Messages</p>
+                        <p>Pirority Listing</p>
+                        <p>Unlimited Matches</p>
+                        <p>Unlimited Messages</p>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-dark">
+                            Sign Up
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="view-details mt-4 align-right" style="text-align: right">
+                <button type="button" class="btn btn-lg btn-outline-dark">
+                    View All
+                </button>
+            </div>
+        </div>
+    </section> -->
+
+    <div id="footer">
+        <footer class="footer">
+            <i class="fab fa-twitter footer-icon"></i>
+            <i class="fab fa-facebook footer-icon"></i>
+            <i class="fab fa-instagram footer-icon"></i>
+            <p>© Copyright ruhan,abid & shaon</p>
+        </footer>
+    </div>
+
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly"
+        async></script>
+    <script src="./../../script/map.js"></script>
+</body>
+
+</html>
